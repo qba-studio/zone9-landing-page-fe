@@ -1,0 +1,73 @@
+{
+  "name": "zone9-landing-page-v2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.5",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@tanstack/react-query": "^4.29.15",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.2.13",
+    "@types/react-dom": "^18.2.6",
+    "@vanilla-extract/css": "^1.11.1",
+    "@vanilla-extract/css-utils": "^0.1.3",
+    "@vanilla-extract/sprinkles": "^1.6.0",
+    "ahooks": "^3.7.7",
+    "axios": "^1.4.0",
+    "clsx": "^1.2.1",
+    "cookies-next": "^2.1.2",
+    "eslint": "^8.43.0",
+    "eslint-config-next": "^13.4.7",
+    "hooks": "^0.3.2",
+    "jotai": "^2.2.1",
+    "lodash": "^4.17.21",
+    "next": "^13.4.7",
+    "next-redux-wrapper": "^8.1.0",
+    "next-seo": "^6.1.0",
+    "next-themes": "^0.2.1",
+    "notistack": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "redux-persist": "^6.0.0",
+    "slick-carousel": "^1.8.1",
+    "typescript": "^5.1.3",
+    "viem": "^1.1.3",
+    "wagmi": "^1.2.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.38.0",
+    "@starkware-industries/starkware-crypto-utils": "^0.1.1-dev.1",
+    "@types/lodash": "^4.14.195",
+    "@vanilla-extract/next-plugin": "^2.1.3",
+    "myria-core-sdk": "^0.0.219"
+  }
+}
