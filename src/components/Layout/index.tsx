@@ -11,7 +11,7 @@ import React, {
 const Layout: FC<PropsWithChildren> = ({ children }) => {
   const router = useRouter();
   const [time, setTime] = useState(0);
-  const audio = useMemo(() => new Audio("/audio/sound-nen.mp3"), []);
+  const audio = useMemo(() => new Audio("https://zone9.s3.ap-southeast-1.amazonaws.com/landing-page/sound-nen.mp3"), []);
   audio.loop = true;
   var resp = audio.play();
   if (resp !== undefined) {
